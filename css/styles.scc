@@ -1,0 +1,139 @@
+/*Main styles*/
+:root{
+    --primary-text-color:#212121;
+    --secondary-text-color:#757575;
+    --accent-color:#2196F3;
+    --background-color:#E5E5E5;
+    --background-btncolor:#F5F4FA;
+    --primary-white-color:#FFFFFF;
+    --dark-background-color:#2F303A;
+    --secondary-adress-color:rgba(255, 255, 255, 0.6);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    font-style: normal;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+
+.list {
+    list-style: none;
+}
+
+/*Logo*/
+.logo-header {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: #000000;
+}
+
+.logo-header:hover,
+.logo-header:focus {
+    color: var(--accent-color);
+}
+.logo-accent {
+    color: var(--accent-color);
+}
+
+/*Navigation*/
+.logo,
+.site-nav,
+.contact-list {
+    background-color: var(--primary-white-color);
+}
+
+.nav,
+contacts-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
+}
+
+.site-nav.link.current,
+.site-nav.link:hover,
+.site-nav.link:focus{
+    color: var(--accent-color);
+}
+
+.site-nav.link {
+    color: var(--primary-white-color);
+}
+
+.list-item .link {
+    color: var(--secondary-text-color);
+}
+    
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}    
+
+/*hero-styles*/
+.hero {
+    background-color: var(--dark-background-color);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
+
+.button-hero {
+    background-color: var(--accent-color);
+    position: absolute;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--primary-white-color);
+}
+
+/*spesials-styles*/
+.spesials-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.spesials-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7px;
+    color: var(--secondary-text-color)
+}
+
+/*team*/
+.team {
+    background-color: var(--background-btncolor);
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    color: var{--secondary-text-color};
+}
