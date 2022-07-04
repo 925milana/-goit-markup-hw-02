@@ -4,31 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https:fonts.googleapis.com" />
-    <link rel="preconnect" href="https:fonts.googleapis.com" />
-    <link rel="preconnect" href="https:fonts.gstatic.com" crossorigin="" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
   </head>
 
   <body>
     <!--шапка сайту-->
     <header class="logo">
-      <a class="logo-header" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
+      <a class="logo-link" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
+      <!--main navigation-->
       <nav class="nav">
         <ul class="site-nav list">
           <li class="site-nav-item">
-            <a class="link current" href="index.html">Студия </a>
+            <a class="link current" href="index.html">Студия</a>
           </li>
           <li class="site-nav-item">
-            <a class="link" href="portfolio.html">Портфолио </a>
+            <a class="link" href="portfolio.html">Портфолио</a>
           </li>
           <li class="site-nav-item">
-            <a class="link" href="">Контакты </a>
+            <a class="link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
@@ -46,7 +47,7 @@
       <!--hero-->
       <section class="hero">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="button-hero" type="button">Заказать услугу</button>
+        <button class="btn-hero" type="button">Заказать услугу</button>
       </section>
       <!--spesials-->
       <section class="spesials">
@@ -126,16 +127,25 @@
       </section>
     </main>
     <!--футер-->
-    <footer class="footer">
-      <a class="logo-link" href="index.html"><span class="logo-accent">Web</span>Studio</a>
-      <address class="footer-adress">
-        <p class>г. Киев, пр-т Леси Украинки, 26</p>
-        <ul class="footer-adress-list list">
-          <li class="footer-adress-item">
-            <a class="footer-adress-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+    <footer class="logo-footer">
+      <a class="logo-link link" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
+      <address class="address">
+        <ul class="address-list list">
+          <li class="address-item">
+            <a
+              class="link-main link"
+              href="https://goo.gl/maps/8VHhELHLWFrZVTvB6"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              г.Киев,пр-т Леси Украинки,26
+            </a>
           </li>
-          <li class="footer-adress-item">
-            <a class="footer-adress-link" href="tel:+380961111111">+38 096 111 11 11</a>
+          <li class="address-item">
+            <a class="link-secondary link" href="mailto:info@example.com">info@example.com</a>
+          </li>
+          <li class="address-item">
+            <a class="link-secondary link" href="tel:+380991111111">+38 099 111 11 11</a>
           </li>
         </ul>
       </address>
