@@ -8,7 +8,7 @@
   --primary-white-color: #ffffff;
   --dark-background-color: #2f303a;
   --btncolor-hov: #188ce8;
-  --secondary-adress-color: rgba(255, 255, 255, 0.6);
+  --secondary-address-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -24,7 +24,6 @@ body {
 /*Logo*/
 .logo .logo-link {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -132,7 +131,6 @@ body {
 }
 
 .spesials-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   color: var(--secondary-text-color);
@@ -151,8 +149,6 @@ body {
 }
 
 .team-text {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.2;
   text-align: center;
   color: var(--secondary-text-color);
@@ -196,14 +192,12 @@ body {
 }
 
 .project-text {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.9;
   color: var(--secondary-text-color);
 }
 
 /*footer*/
-.adress {
+.address {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -227,9 +221,13 @@ body {
 }
 
 .link-main {
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: ;
   color: var(--primary-white-color);
 }
 
 .link-secondary {
-  color: var(--secondary-adress-color);
+  color: var(--secondary-address-color);
 }
