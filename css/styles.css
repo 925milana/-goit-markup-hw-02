@@ -90,7 +90,7 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-}
+ }
 
 /*hero-styles*/
 .hero {
@@ -123,6 +123,11 @@ body {
 }
 
 /*spesials-styles*/
+
+.section-title {
+  display: flex;
+}
+
 .spesials-title {
   font-weight: 700;
   font-size: 14px;
